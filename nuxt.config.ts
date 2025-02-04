@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import Aura from '@primevue/themes/nora';
 export default defineNuxtConfig({
+  srcDir: 'src',
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   modules: [
@@ -10,7 +11,10 @@ export default defineNuxtConfig({
         /* Configuration */
         options: {
           theme: {
-              preset: Aura
+              preset: Aura,
+              colors: {
+                primary: 'blue'
+              }
           }
       }
     }
