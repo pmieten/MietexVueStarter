@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   modules: [
     '@primevue/nuxt-module',
     '@unocss/nuxt',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    '@pinia/nuxt',
     ],
     primevue: {
         /* Configuration */
@@ -32,5 +33,8 @@ export default defineNuxtConfig({
       lazy: true,
       langDir: './locales/',
       vueI18n: './i18n.config.ts',      
+    },
+    pinia: {
+      autoImports: ['defineStore', 'storeToRefs']
     }
 })

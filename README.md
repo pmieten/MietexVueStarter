@@ -47,6 +47,15 @@ This project uses [Nuxt](https://nuxt.com/) as the framework. Nuxt is a powerful
 
 [ Nuxt i18n](https://i18n.nuxtjs.org/) is a powerful internationalization framework that provides a complete solution for translating your web applications. It supports various features like pluralization, formatting, and interpolation, making it easy to manage multilingual content across your application.
 
+### Pinia
+
+[Pinia](https://pinia.vuejs.org/) is the official state management solution for Vue.js applications. It provides a simple and effective way to manage shared state across components with TypeScript support, devtools integration, and a modular design that scales well with your application.
+
+
+### ESLint
+
+[ESLint](https://eslint.org/) is a static code analysis tool that helps identify and fix problems in JavaScript code. It enforces coding style consistency and catches potential errors before they occur in runtime, making it an essential tool for maintaining code quality.
+
 ## Setup
 
 Install the dependencies using your preferred package manager:

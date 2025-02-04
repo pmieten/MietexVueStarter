@@ -12,6 +12,8 @@
                             <li>Tailwind CSS for styling</li>
                             <li>Vite as build tool</li>
                             <li>Nuxt i18n</li>
+                            <li>https://pinia.vuejs.org/</li>
+                            <li>https://eslint.org/</li>
                         </ul>
                     </template>
                 </Card>

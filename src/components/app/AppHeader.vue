@@ -2,11 +2,15 @@
 <template>
     <header>
         <h1>{{ title }}</h1> <AppMenu /> <NuxtLink to="/login">{{ $t('logout') }}</NuxtLink>
+        {{ themeStore.themeName }}
     </header>
 </template>
 
 <script setup>
 import { ref } from 'vue';
+import { useThemeStore } from '~/stores/theme'
+
+const themeStore = useThemeStore()
 const title = ref('MietexVueStarter');
 
 </script>
