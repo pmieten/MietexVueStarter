@@ -18,7 +18,9 @@
                     </template>
                 </Card>
                 <Card>
-                    <template #title>Getting Started</template>
+                    <template #title>
+                        Getting Started
+                    </template>
                     <template #content>
                         <Message severity="info">Clone repository and run pnpm install to begin</Message>
                     </template>

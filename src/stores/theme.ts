@@ -24,12 +24,12 @@ export const useThemeStore = defineStore('theme', {
   // optional actions
   actions: {
     load() {
-      var themeName = localStorage.getItem("theme.themeName");
+      const themeName = localStorage.getItem("theme.themeName");
       if(themeName)
       {
         this.themeName= themeName;
       }
-      var themeColor = localStorage.getItem("theme.themeColor");
+      const themeColor = localStorage.getItem("theme.themeColor");
       if(themeColor)
       {
         this.themeColor= themeColor;
