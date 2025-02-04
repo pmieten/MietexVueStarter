@@ -1,14 +1,14 @@
 
 <template>
     <header>
-        <h1>{{ title }}</h1> <AppMenu /> <NuxtLink to="/login">Logout</NuxtLink>
+        <h1>{{ title }}</h1> <AppMenu /> <NuxtLink to="/login">{{ $t('logout') }}</NuxtLink>
     </header>
 </template>
 
 <script setup>
 import { ref } from 'vue';
-
 const title = ref('MietexVueStarter');
+
 </script>
 
 <style scoped>

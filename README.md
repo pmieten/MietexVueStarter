@@ -26,6 +26,7 @@ pnpm run dev
 
 ## Libraries and Tools
 
+
 ### Nuxt
 
 This project uses [Nuxt](https://nuxt.com/) as the framework. Nuxt is a powerful framework built on top of Vue.js that simplifies the development of universal or single-page Vue applications. It provides features like server-side rendering, static site generation, and a powerful module ecosystem.
@@ -41,6 +42,10 @@ This project uses [Nuxt](https://nuxt.com/) as the framework. Nuxt is a powerful
 ### Tailwind CSS
 
 [Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML. It promotes a highly productive workflow and ensures consistency across the application.
+
+### i18next
+
+[ Nuxt i18n](https://i18n.nuxtjs.org/) is a powerful internationalization framework that provides a complete solution for translating your web applications. It supports various features like pluralization, formatting, and interpolation, making it easy to manage multilingual content across your application.
 
 ## Setup
 

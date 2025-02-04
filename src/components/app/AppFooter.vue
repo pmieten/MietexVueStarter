@@ -1,6 +1,6 @@
 <template>
     <footer class="app-footer">
-        <p>&copy; 2023 Mietex. All rights reserved.</p>
+        <p>&copy; 2025 Mietex. All rights reserved.</p>
     </footer>
 </template>
 

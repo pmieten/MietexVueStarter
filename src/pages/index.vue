@@ -11,15 +11,13 @@
                             <li>PrimeVue UI Components</li>
                             <li>Tailwind CSS for styling</li>
                             <li>Vite as build tool</li>
+                            <li>Nuxt i18n</li>
                         </ul>
                     </template>
                 </Card>
-                
                 <Card>
                     <template #title>Getting Started</template>
                     <template #content>
-                        <Steps :model="steps" />
-                        <Divider />
                         <Message severity="info">Clone repository and run pnpm install to begin</Message>
                     </template>
                 </Card>
