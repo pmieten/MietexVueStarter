@@ -24,9 +24,23 @@ To start the development server, run:
 pnpm run dev
 ```
 
-## Nuxt Minimal Starter
+## Libraries and Tools
 
-This project uses Nuxt as the framework. Refer to the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+### Nuxt
+
+This project uses [Nuxt](https://nuxt.com/) as the framework. Nuxt is a powerful framework built on top of Vue.js that simplifies the development of universal or single-page Vue applications. It provides features like server-side rendering, static site generation, and a powerful module ecosystem.
+
+### PrimeVue
+
+[PrimeVue](https://primevue.org/) is a rich set of UI components for Vue.js. It offers a wide range of components that are easy to use and integrate, making it an excellent choice for building modern, responsive user interfaces.
+
+### UnoCSS
+
+[UnoCSS](https://unocss.dev/) is an atomic CSS engine that provides a highly efficient and flexible way to style your applications. It allows for on-demand generation of CSS classes, reducing the overall CSS bundle size and improving performance.
+
+### Tailwind CSS
+
+[Tailwind CSS](https://tailwindcss.com/) is a utility-first CSS framework that provides low-level utility classes to build custom designs without leaving your HTML. It promotes a highly productive workflow and ensures consistency across the application.
 
 ## Setup
 
@@ -99,3 +113,10 @@ bun run preview
 ```
 
 For more information on deployment, check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment).
+
+## Additional Resources
+
+- [Nuxt Documentation](https://nuxt.com/)
+- [PrimeVue Documentation](https://primevue.org/)
+- [UnoCSS Documentation](https://unocss.dev/)
+- [Tailwind CSS Documentation](https://tailwindcss.com/)
